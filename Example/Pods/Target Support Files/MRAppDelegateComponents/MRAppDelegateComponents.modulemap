@@ -1,0 +1,6 @@
+framework module MRAppDelegateComponents {
+  umbrella header "MRAppDelegateComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}

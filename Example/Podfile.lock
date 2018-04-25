@@ -1,0 +1,28 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MRAppDelegateComponents (0.1.0):
+    - MRLogicInjection
+  - MRLogicInjection (1.0.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MRAppDelegateComponents (from `../`)
+
+EXTERNAL SOURCES:
+  MRAppDelegateComponents:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MRAppDelegateComponents: 1d80739a18ee0a3c3853dbb12f359e3813686715
+  MRLogicInjection: 143a37e6158fd75614325b02ba3acff412e9ddbb
+
+PODFILE CHECKSUM: bab8a674dc83141035b283183b8eb2f8fbfa55b2
+
+COCOAPODS: 1.5.0
+
+COCOAPODS DEPLOY: 0.0.11

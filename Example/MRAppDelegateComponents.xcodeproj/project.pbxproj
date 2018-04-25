@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A462C84209094C700B3BBB4 /* MRAppDelegateLogic1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A462C83209094C700B3BBB4 /* MRAppDelegateLogic1.m */; };
+		1A462C87209094D500B3BBB4 /* MRAppDelegateLogic2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A462C86209094D500B3BBB4 /* MRAppDelegateLogic2.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,11 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A462C82209094C700B3BBB4 /* MRAppDelegateLogic1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRAppDelegateLogic1.h; sourceTree = "<group>"; };
+		1A462C83209094C700B3BBB4 /* MRAppDelegateLogic1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRAppDelegateLogic1.m; sourceTree = "<group>"; };
+		1A462C85209094D500B3BBB4 /* MRAppDelegateLogic2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRAppDelegateLogic2.h; sourceTree = "<group>"; };
+		1A462C86209094D500B3BBB4 /* MRAppDelegateLogic2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRAppDelegateLogic2.m; sourceTree = "<group>"; };
 		2B45AB3CE726DC6A549CBEEA /* Pods-MRAppDelegateComponents_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRAppDelegateComponents_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MRAppDelegateComponents_Example/Pods-MRAppDelegateComponents_Example.release.xcconfig"; sourceTree = "<group>"; };
 		39BD20C29BA0CE9923F6957A /* Pods-MRAppDelegateComponents_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRAppDelegateComponents_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MRAppDelegateComponents_Example/Pods-MRAppDelegateComponents_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4239E130D68F272C35C9C344 /* MRAppDelegateComponents.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MRAppDelegateComponents.podspec; path = ../MRAppDelegateComponents.podspec; sourceTree = "<group>"; };
-		47DF4739116A54BE89DAF4BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		525FD8B767EC2BC3A3EFA281 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4239E130D68F272C35C9C344 /* MRAppDelegateComponents.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MRAppDelegateComponents.podspec; path = ../MRAppDelegateComponents.podspec; sourceTree = "<group>"; };
+		47DF4739116A54BE89DAF4BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		525FD8B767EC2BC3A3EFA281 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MRAppDelegateComponents_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRAppDelegateComponents_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -140,6 +146,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				1A462C82209094C700B3BBB4 /* MRAppDelegateLogic1.h */,
+				1A462C83209094C700B3BBB4 /* MRAppDelegateLogic1.m */,
 			);
 			name = "Example for MRAppDelegateComponents";
 			path = MRAppDelegateComponents;
@@ -181,6 +189,8 @@
 				4239E130D68F272C35C9C344 /* MRAppDelegateComponents.podspec */,
 				47DF4739116A54BE89DAF4BE /* README.md */,
 				525FD8B767EC2BC3A3EFA281 /* LICENSE */,
+				1A462C85209094D500B3BBB4 /* MRAppDelegateLogic2.h */,
+				1A462C86209094D500B3BBB4 /* MRAppDelegateLogic2.m */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -321,10 +331,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MRAppDelegateComponents_Example/Pods-MRAppDelegateComponents_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MRAppDelegateComponents/MRAppDelegateComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MRLogicInjection/MRLogicInjection.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MRAppDelegateComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MRLogicInjection.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -376,6 +388,8 @@
 			files = (
 				6003F59E195388D20070C39A /* MRAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MRViewController.m in Sources */,
+				1A462C87209094D500B3BBB4 /* MRAppDelegateLogic2.m in Sources */,
+				1A462C84209094C700B3BBB4 /* MRAppDelegateLogic1.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
