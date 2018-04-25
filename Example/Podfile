@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MRAppDelegateComponents_Example' do
+  pod 'MRAppDelegateComponents', :path => '../'
+
+  target 'MRAppDelegateComponents_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
