@@ -21,17 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/yishuiliunian@gmail.com/MRAppDelegateComponents'
+  s.homepage         = 'https://github.com/yishuiliunian/MRAppDelegateComponents'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yishuiliunian@gmail.com' => 'stonedong@tencent.com' }
-  s.source           = { :git => 'https://github.com/yishuiliunian@gmail.com/MRAppDelegateComponents.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yishuiliunian/MRAppDelegateComponents.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MRAppDelegateComponents/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'MRAppDelegateComponents' => ['MRAppDelegateComponents/Assets/*.png']
   # }
